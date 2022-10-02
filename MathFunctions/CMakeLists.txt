@@ -30,5 +30,5 @@ if(HAVE_LOG AND HAVE_EXP)
 endif()
 
 # install rules
-install(TARGETS MathFunctions DESTINATION lib)
-install(FILES MathFunctions.h DESTINATION include)
+install(TARGETS MathFunctions DESTINATION ${PROJECT_SOURCE_DIR}/install/lib)
+install(FILES MathFunctions.h DESTINATION ${PROJECT_SOURCE_DIR}/install/include)
